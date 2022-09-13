@@ -16,17 +16,17 @@
 ### Android
 ```java
 // Установите для полноэкранной рекламы
-YabbiAds.setCustomParams("yandex_interstitial_id", "YANDEX_INTERSTITIAL_ID");
+YabbiAds.setCustomParams("yandex_interstitial_id", "замените_на_ваш_идентификатор");
 
 // Установите для видео с вознаграждением
-YabbiAds.setCustomParams("yandex_rewarded_id", "YANDEX_REWARDED_ID");
+YabbiAds.setCustomParams("yandex_rewarded_id", "замените_на_ваш_идентификатор");
 ```
 
 ### Unity
 ```c#
 // Установите для полноэкранной рекламы
-Yabbi.SetCustomParams("yandex_interstitial_id", "YANDEX_INTERSTITIAL_ID");
+Yabbi.SetCustomParams("yandex_interstitial_id", "замените_на_ваш_идентификатор");
 
 // Установите для видео с вознаграждением
-Yabbi.SetCustomParams("yandex_rewarded_id", "YANDEX_REWARDED_ID");
+Yabbi.SetCustomParams("yandex_rewarded_id", "замените_на_ваш_идентификатор");
 ```
