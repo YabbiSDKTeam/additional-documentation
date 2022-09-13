@@ -4,4 +4,4 @@
 
 ## Оглавление
 * [Рекламная медиация](adapters/ADAPTERS.md)  
-    * [Яндекс реклама](adapters/YANDEX_ADAPTER.md)
+    * [Яндекс](adapters/YANDEX_ADAPTER.md)
