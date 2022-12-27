@@ -15,18 +15,27 @@
 
 ### Android
 ```java
-// Установите для полноэкранной рекламы
-YabbiAds.setCustomParams("yandex_interstitial_id", "замените_на_ваш_идентификатор");
+// Установите для показа полноэкранной рекламы Яндекса
+YabbiAds.setCustomParams(YbiAdaptersParameters.yandexInterstitialID, "замените_на_свой_id");
+    
+// Установите для показа рекламы с вознаграждением Яндекса
+YabbiAds.setCustomParams(YbiAdaptersParameters.yandexRewardedID, "замените_на_свой_id");
+```
 
-// Установите для видео с вознаграждением
-YabbiAds.setCustomParams("yandex_rewarded_id", "замените_на_ваш_идентификатор");
+### iOS
+```swift
+// Установите для показа полноэкранной рекламы Яндекса
+YabbiAds.setCustomParams(YBIAdaptersParameters.yandexInterstitialID, "замените_на_свой_id")
+
+// Установите для показа рекламы с вознаграждением Яндекса
+YabbiAds.setCustomParams(YBIAdaptersParameters.yandexInterstitialID, "замените_на_свой_id")
 ```
 
 ### Unity
-```c#
-// Установите для полноэкранной рекламы
-Yabbi.SetCustomParams("yandex_interstitial_id", "замените_на_ваш_идентификатор");
+```csharp
+// Установите для показа полноэкранной рекламы Яндекса
+Yabbi.SetCustomParams(YbiAdaptersParameters.yandexInterstitialID, "вставьте_свой_id");
 
-// Установите для видео с вознаграждением
-Yabbi.SetCustomParams("yandex_rewarded_id", "замените_на_ваш_идентификатор");
+// Установите для показа рекламы с вознаграждением Яндекса
+Yabbi.SetCustomParams(YbiAdaptersParameters.yandexRewardedID, "вставьте_свой_id");
 ```
